@@ -1,0 +1,31 @@
+.datatable-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 30px;
+}
+
+.datatable-filters {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datatable-filters .filter-item {
+  margin-left: 8px;
+}
+
+.datatable-filters .search-box {
+  background: #f0f0f0;
+  border-radius: 2px;
+  border: none;
+  min-width: 220px;
+  max-width: 255px;
+}
+
+.datatable-filters .search-box input {
+  background: #f0f0f0;
+  font-size: 13px;
+  line-height: 24px;
+  color: #595959;
+}
